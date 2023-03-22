@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  size: absolute;
+}
+nav {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  height: 3rem;
+}
+.logo {
+  display: inline-flex;
+  background-color: forestgreen;
+  font-size: 2rem;
+  text-align: center;
+  height: 3rem;
+  width: 5rem;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: center;
+}
+.logo p {
+    align-self: center;
+}
+.list {
+  list-style: none;
+  justify-content: space-between;
+  display: inline-flex;
+  width: 30%;
+  padding: 0px;
+}
+.listitem {
+  align-self: center;
+}
+.box {
+  display: flex;
+}
+#searching {
+    display: flex;
+}
+.inputbox {
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+}
+.box img {
+    padding: 1rem;
+  height: auto;
+  width: 1rem;
+  align-self: center;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
+  justify-content: center;
+}
+.options img {
+  height: auto;
+  width: 2rem;
+}
